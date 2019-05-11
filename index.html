@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Template</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body onload="myTime();">
+
+    <!-- <div id="id">This is a div</div>
+
+    <button onclick="getit();">Button</button> -->
+
+    <!-- Header container -->
+    <div class="container">
+        <div class="row header">
+            <!-- Logo -->
+            <div class="col-md-2 col-ms-12 col-xl-2 logo-box">
+                <!-- left color -->
+                <div class="left-div"></div>
+                <div class="inner-logo-box">
+                    <!-- Circle -->
+                    <div class="circle"></div>
+
+                    <!-- Word box -->
+                    <div class="word-box"></div>
+
+                </div>
+            </div>
+
+            <!-- Nav -->
+            <div class="col-md-10 col-sm-12 col-xl-10 nav-box">
+                <div class="nav">
+                    <ul class="nav-list" id="nav">
+                        <li class="nav-list-item"><a href="#" class="nav-link">Home <hr class="underline"> <div class="vertical"></div> </a></li>
+                        <li class="nav-list-item"><a href="#" class="nav-link">About <hr class="underline"> <div class="vertical"></div> </a></li>
+                        <li class="nav-list-item"><a href="#" class="nav-link">News <hr class="underline"> <div class="vertical"></div> </a></li>
+                        <li class="nav-list-item"><a href="#" class="nav-link">Portfolio <hr class="underline"> <div class="vertical"></div> </a></li>
+                        <li class="nav-list-item"><a href="#" class="nav-link">Trending <hr class="underline"> <div class="vertical"></div> </a></li>
+                    </ul>
+                    <a href="javascript:void(0);" onclick="navigation();" class="icon">&#9776;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of header container -->
+
+    <!-- Bunner container -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xl-12 bunner">
+                <!-- Time Box -->
+                <div class="time-box" id="time-box">
+                    <div class="min" id="min">
+                        <h1 id="seconds" id="seconds"></h1>
+                    </div>
+                    <div class="separator" id="separator"></div>
+                    <div class="hours" id="hour">
+                        <h3 id="hours"></h3>
+                    </div>
+                    <div class="minutes" id="minute">
+                        <h3 id="minutes"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of bunner -->
+
+    <!-- Main body section one container -->
+
+    <div class="container-fluid">
+
+        <!-- Icons -->
+        <div class="row justify-content-center icons-cont">
+
+            <!-- Icon box one -->
+            <div class="col-md-3 col-sm-9 icon-box m-1">
+
+                <!-- Icon row -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box text-center">
+                            <i class="fa fa-laptop icon-i mt-4 fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Header row -->
+
+                <div class="row mt-3">
+                    <div class="col-md-12 text-center text-header">
+                        <h2>Responsive</h2>
+                    </div>
+                </div>
+
+
+                <!-- Content holder -->
+                <div class="row mt-4 mb-4">
+                    <div class="col-md-12 text-center">
+                        <p class="text-content lead">
+                            This book can be distributed in unmodified form with no restrictions.
+                            Modified versions can be made and distributed provided
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Icon box two -->
+            <div class="col-md-3 col-sm-9 icon-box m-1">
+
+
+                <!-- Icon row -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box text-center">
+                            <i class="fa fa-compass icon-i mt-4 fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Header row -->
+
+                <div class="row mt-3">
+                    <div class="col-md-12 text-center text-header">
+                        <h2>Easy To Use</h2>
+                    </div>
+                </div>
+
+
+                <!-- Content holder -->
+                <div class="row mt-4 mb-4">
+                    <div class="col-md-12 text-center">
+                        <p class="text-content lead">
+                            This book can be distributed in unmodified form with no restrictions.
+                            Modified versions can be made and distributed provided
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Icon box three -->
+            <div class="col-md-3 col-sm-9 icon-box m-1">
+
+
+                <!-- Icon row -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box text-center">
+                            <i class="fa fa-cube icon-i mt-4 fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Header row -->
+
+                <div class="row mt-3">
+                    <div class="col-md-12 text-center text-header">
+                        <h2>Quick Support</h2>
+                    </div>
+                </div>
+
+
+                <!-- Content holder -->
+                <div class="row mt-4 mb-4">
+                    <div class="col-md-12 text-center">
+                        <p class="text-content lead">
+                            This book can be distributed in unmodified form with no restrictions.
+                            Modified versions can be made and distributed provided
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Main body section one container -->
+
+    <!-- Main body section Two container -->
+
+    <div class="container mt-5">
+        <div class="row">
+
+            <!-- Section Two Bunner -->
+            <div class="col-md-6 bunner-two p-0">
+                <img src="images/win10.jpg" class="img-fluid" alt="Windows">
+            </div>
+            <div class="col-md-6 content-section-two">
+
+                <!-- Section Two header -->
+                <div class="row">
+                    <div class="col-md-12 pt-3">
+                        <h2>Bussiness StartUp</h2>
+                    </div>
+                </div>
+
+                <!-- Section two content -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="lead mt-3">
+                            This book can be distributed in unmodified form with no restrictions.
+                            Modified versions can be made and distributed provided they are distributed
+                            under the same license as the original.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Section Two Button -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#" class="btn btn-custom">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Main body section Two container -->
+
+    <!-- Main Body section three -->
+    <div class="container-fluid ">
+        <!-- Main Body section three header section-->
+        <div class="row head-three">
+            <h2 class="head-three-w">Recent Projects</h2>
+        </div>
+
+        <!--  Main Body section three paragraph section -->
+        <div class="row">
+            <div class="col-md-6 box-text">
+                <p class="lead paragraph-three">
+                    This book can be distributed in unmodified form with no restrictions.
+                    Modified versions can be made and distributed provided.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Main Body section three -->
+
+    <!-- Main Body section four -->
+    
+    <div class="container images-cont">
+        <div class="row images-row-one">
+            <div class="col-md-4 col-sm-12 image-box">
+                <img src="images/comp.jpeg" alt="Computer" class="img-fluid">
+            </div>
+            <div class="col-md-4 col-sm-12 image-box">
+                <img src="images/comp.jpeg" alt="Computer" class="img-fluid">
+            </div>
+            <div class="col-md-4 col-sm-12 image-box">
+                <img src="images/comp.jpeg" alt="Computer" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row images-row-two">
+            <div class="col-md-3 col-sm-12 image-box">
+                <img src="images/win10.jpg" alt="rafow" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-12 image-box">
+                <img src="images/win10.jpg" alt="rafow" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-12 image-box">
+                <img src="images/win10.jpg" alt="rafow" class="img-fluid">
+            </div>
+            <div class="col-md-3 col-sm-12 image-box">
+                <img src="images/win10.jpg" alt="rafow" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="button-box">
+                <a href="#" class="btn btn-custom">View More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Main Body section four -->
+
+    <!-- Footer -->
+
+    <div class="container-fluid footer">
+        <div class="container inner-footer-cont">
+            <div class="row">
+
+                <!-- ONETEL section -->
+                <div class="col-md-4 col-md-12 col-xl-4 onetel-col">
+                    <div class="row onetel-row">
+                        <div class="col-md-12 onetel-col1">
+                            <h3>ONETEL</h3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="onetel-para">
+                            <p class="lead para">
+                                This book can be distributed in unmodified form with no restrictions.
+                                Modified versions can be made and distributed provided.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-1">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <p>0718089771</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-1">
+                            <i class="fa fa-google"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <p>rafwambugu@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-1">
+                            <i class="fa fa-cube"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <p>www.rafwork.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-12 col-xl-4">
+                    <div class="row onetel-row">
+                        <div class="col-md-12 onetel-col1">
+                            <h3>QUICK links</h3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <h6>
+                            <a href="#" class="link">Home</a>
+                        </h6>
+                    </div>
+
+                    <div class="row">
+                        <h6>
+                            <a href="#" class="link">HTML5 Templates</a>
+                        </h6>
+                    </div>
+
+                    <div class="row">
+                        <h6>
+                            <a href="#" class="link">CSS3 Tricks</a>
+                        </h6>
+                    </div>
+
+                    <div class="row">
+                        <h6>
+                            <a href="#" class="link">Design Blog</a>
+                        </h6>
+                    </div>
+
+                    <div class="row">
+                        <h6>
+                            <a href="#" class="link">Animations</a>
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-12 col-xl-4">
+                    <div class="row onetel-row">
+                        <div class="col-md-12 onetel-col1">
+                            <h3>Newsletter</h3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="onetel-para">
+                            <p class="lead para">
+                                This book can be distributed in unmodified form with no restrictions.
+                                Modified versions can be made and distributed provided.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row form-row">
+                        <div class="col-md-12 form-col">
+                            <form class="form">
+                                <input type="text" class="input">
+
+                                <input type="submit" value="Submit" class="btn-custom btn-custom-me">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of footer -->
+
+    <script src="script.js"></script>
+</body>
+</html>
